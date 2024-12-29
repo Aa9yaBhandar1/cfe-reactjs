@@ -1,15 +1,11 @@
-import logo from "./logo.svg";
-import Todo from "./components/Todo";
+import Todo from "./components/Todo.js";
 
 function App() {
   return (
     <>
     <Todo/>
-        <h1>Hello World </h1>
-        <main>
-          <Todo Title={"Learn React"} Description={"A todo application is here"}/>
-                  </main>
-    </>);
+    </>
+    );
 }
 
 export default App;

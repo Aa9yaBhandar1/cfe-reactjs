@@ -1,0 +1,59 @@
+
+.todo-navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5C7457;
+    padding : 1rem;
+    position:relative;
+    width: 100%;
+}
+
+.adding-todo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+   padding-right: 3rem;
+
+}
+
+.add-todo{
+    margin-top: 1.5rem;
+}
+.todo-input{
+    height: 2rem;
+    margin: 1rem;
+}
+
+.add-todo-button{
+    height: 2.4rem;
+    width: 3rem;
+    margin-top: 1rem;
+}
+
+
+.todo-status-box{
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: auto; */
+ 
+}
+.todo-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    border: 0.3rem solid black;
+    margin:2rem;
+    border-radius: 0.9rem;
+    width: 20rem;
+}
+
+.todo-count{
+    display: flex;
+    justify-content: center;
+}
